@@ -6,40 +6,40 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Intro component with sign up form</title>
 
 </head>
 <body>
-<section class="main-box">
-  <div>
+  <div class="main-box">
     <h1>Get fit in 20 minutes a day.</h1>
     <h2>Reclaim your spare time and energy. Build your fittest body yet. Break free from bad habits.</h2>
   </div>
-</section>
 
-<div class="try-box">
-  <button class="btn">
+  <div class="right-box">
+    <div>
+    <button class="btn" id="try-btn">
     <strong>Try it free for 7 days</strong> then $19.99 per month.
-  </button>
-</div>
-
+    </button>
+  </div>
 <div class="form-box">
-  <form>
-    <input type="text" placeholder="First Name">
-    <input type="text" placeholder="Last Name">
-    <input type="email" placeholder="Email Address">
-    <input type="password" placeholder="Password">
-    <button class="btn" id="submit">CLAIM YOUR FREE TRIAL</button>
-    <p>By clicking the button, you are agreeing to the <a href="https:google.com">terms of service.</a></p>
+  <form class="form">
+    <input class="form-item" type="text" placeholder="First Name">
+    <input class="form-item" type="text" placeholder="Last Name">
+    <input class="form-item" type="email" placeholder="Email Address">
+    <input class="form-item" type="password" placeholder="Password">
+    <button class="form-item" class="btn" id="submit">CLAIM YOUR FREE TRIAL</button>
+    <p id="terms">By clicking the button, you are agreeing to the <a href="https:google.com">terms of service.</a></p>
   </form>
 </div>
+</div>
   
-  <footer>
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Sarah Hughes</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>

@@ -69,6 +69,15 @@ h2 {
     width: 80%;
 }
 
+.form-item:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
+
+.form-item:focus:invalid {
+    border: none;
+    box-shadow: none;
+}
+
 #submit {
     background-color: hsl(154, 59%, 51%);
     width: 100%;
@@ -81,14 +90,14 @@ h2 {
     color: #838383;
 }
 
-footer {
+/* footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 .attribution {
     font-size: .5em;
-    color: #838383;
+    color: #838383; */
 
 }
 

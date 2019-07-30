@@ -24,22 +24,24 @@
     </button>
   </div>
 <div class="form-box">
-  <form class="form">
-    <input class="form-item" type="text" placeholder="First Name">
-    <input class="form-item" type="text" placeholder="Last Name">
-    <input class="form-item" type="email" placeholder="Email Address">
-    <input class="form-item" type="password" placeholder="Password">
-    <button class="form-item" class="btn" id="submit">CLAIM YOUR FREE TRIAL</button>
+  <form class="form" name="form" action="message.html" method="post" onsubmit="return validateForm()">
+    <input class="form-item" id="first" type="text" placeholder="First Name">
+    <input class="form-item" id="last" type="text" placeholder="Last Name">
+    <input class="form-item" id="email" type="email" placeholder="Email Address">
+    <input class="form-item" id="password" type="password" placeholder="Password">
+    <button class="form-item" class="btn" id="submit" type="submit" >CLAIM YOUR FREE TRIAL</button>
     <p id="terms">By clicking the button, you are agreeing to the <a href="https:google.com">terms of service.</a></p>
   </form>
 </div>
 </div>
-  
   <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Sarah Hughes</a>.
     </p>
   </footer> -->
+
 </body>
+<script src="script.js"></script>
+
 </html>
